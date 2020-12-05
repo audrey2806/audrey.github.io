@@ -1,0 +1,199 @@
+body{
+  background-color: #bfba00;
+  color: #fff;
+  font-family: 'Big Shoulders Stencil Text', cursive;
+}
+
+a:link, a:visited{
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover{
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.heading {
+  text-align: center;
+  border: 1px solid;
+  padding: 15px;
+  border-radius: 10px;
+  font-family: 'Big Shoulders Stencil Text', cursive;
+}
+
+.link{
+  list-style-type: none;
+}
+.menu{
+  width: 300px;
+  margin: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  text-align: center;
+}
+
+.gambar-bahan{
+
+  width: 300px;
+  height: 200px;
+}
+.container{
+  width: 80%;
+  margin: auto;
+}
+.gradient{
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f9c667+0,f79621+100;Orange+3D+%234 */
+background: rgb(249,198,103); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(249,198,103,1) 0%, rgba(247,150,33,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(249,198,103,1) 0%,rgba(247,150,33,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(249,198,103,1) 0%,rgba(247,150,33,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9c667', endColorstr='#f79621',GradientType=0 ); /* IE6-9 */
+
+}
+.blue-gradient{
+
+background: -moz-linear-gradient(top,  rgba(208,228,247,1) 1%, rgba(115,177,231,1) 24%, rgba(10,119,213,1) 50%, rgba(83,159,225,1) 79%, rgba(135,188,234,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(208,228,247,1) 1%,rgba(115,177,231,1) 24%,rgba(10,119,213,1) 50%,rgba(83,159,225,1) 79%,rgba(135,188,234,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(208,228,247,1) 1%,rgba(115,177,231,1) 24%,rgba(10,119,213,1) 50%,rgba(83,159,225,1) 79%,rgba(135,188,234,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d0e4f7', endColorstr='#87bcea',GradientType=0 ); /* IE6-9 */
+
+}
+.white-gradient{
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f9fcf7+0,f5f9f0+100;L+Green+3D */
+background: rgb(249,252,247); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(249,252,247,1) 0%, rgba(245,249,240,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(249,252,247,1) 0%,rgba(245,249,240,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(249,252,247,1) 0%,rgba(245,249,240,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9fcf7', endColorstr='#f5f9f0',GradientType=0 ); /* IE6-9 */
+
+}
+.blockmenu{
+  width: 200px;
+  height: 150px;
+  list-style: none;
+  text-align: center;
+  float: left;
+  margin: 5px;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 3px 3px 5px grey;
+  overflow: hidden;
+
+}
+.iconmenu{
+  width: 200px;
+  height: 110px;
+  overflow: hidden;
+}
+.iconmenuimg{
+  width: 100%;
+}
+.textmenu{
+  padding: 5px;
+  font-size: 18px;
+}
+.row{
+  display: flex;
+}
+.feature-image{
+  flex: 30%;
+  min-width: 200px;
+  height: 500px;
+  border-radius: 20px;
+  border: 2px solid #fff;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+  overflow: hidden;
+  float: left;
+}
+.img-responsif{
+  height: 100%;
+  width: 100%;
+}
+.image-Resep{
+    border-radius: 20px;
+    border: 2px solid #fff;
+    overflow: hidden;
+
+}
+.content{
+  flex: 70%;
+
+}
+.block{
+  width: 250px;
+  height: 150px;
+  list-style: none;
+  text-align: center;
+  float: left;
+  margin: 5px;
+  border: 2px solid #fff;
+  border-radius: 15px;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+  overflow: hidden;
+}
+.resepfont{
+  font-family: 'Abel', sans-serif;
+}
+.isi{
+
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+.footer{
+  text-align: center;
+  border: 1px solid;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Abel', sans-serif;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+  .row{
+    display: block;
+  }
+  .feature-image{
+    width: 100%;
+    height: 300px;
+    float: none;
+  }
+  .content{
+    width: 100%;
+  }
+  .menu{
+    display: block;
+    padding: 0px;
+  }
+  .blockmenu{
+    width: 70%;
+    height: 150px;
+    margin-left: 13%;
+
+  }
+  .iconmenu{
+    width: 100%;
+    height: 120px;
+    overflow: hidden;
+  }
+  .block{
+    width: 100%;
+    height: 335px;
+    float: none;
+  }
+
+}

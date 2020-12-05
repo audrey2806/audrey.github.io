@@ -1,0 +1,91 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+.bluechef {
+background-color: #0000bf;
+}
+.bluechef-text {
+color: #0000bf;
+}
+.collection a.collection-item {
+
+color: #0000bf;
+}
+.collection .collection-item {
+  border-bottom: 1px solid #9400D3;
+}
+.collection a.collection-item:not(.active):hover {
+    background-color: #9400D3;
+}
+.heading{
+  text-align: center;
+
+}
+.kepalaabout{
+  font-size: 60px;
+  padding-bottom: 20px;
+  font-family: 'Ubuntu', sans-serif;
+  color: #0000bf;
+}
+a{
+   color:  #9400D3;
+}
+a:hover{
+  font-weight: bold;
+}
+
+.bgcolor{
+  background-color: #FFFAFA;
+}
+.aboutfooter{
+  padding-top: 50px;
+}
+.abelfont{
+  font-family: 'Abel', sans-serif;
+  color: black;
+  font-size: 18px;
+}
+.cardbahan {
+  border-radius: 15px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+ .card-image{
+  border-radius: 15px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+
+@media only screen and (max-width: 800px){
+  a.brand-logo {
+    text-align: center;
+    font-size: 15px;
+
+ }
+ .heading{
+   font-size: 12px;
+ }
+ .cardbahan{
+   width: 60%;
+   overflow: hidden;
+ }
+
+
+}
