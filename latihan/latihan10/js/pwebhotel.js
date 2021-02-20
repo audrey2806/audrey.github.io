@@ -1,9 +1,5 @@
 const endpoint_url = 'https://51018015.p-web.click/prak8/api';
 
-document.addEventListener("DOMContentLoaded", function() {
-getRoomRate();
-});
-
 function getRoomRate() {
   fetch(endpoint_url + "/rooms/roomlist")
     .then(status)
