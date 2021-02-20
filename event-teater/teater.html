@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/materialize.min.css" media="screen,projection">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Eteater</title>
+    <style type="text/css">
+      .parallax-container{height: 300px;}
+      .btn{background-color:purple;color:#fff;}
+      .btn:hover{background-color:purple;color:#fff;}
+      .judul{position: inherit;font-size: 26px;margin-top:-40px;margin-left:75px;}
+    </style>
+  </head>
+  <body>
+
+      <nav class="purple" role="navigation">
+        <div class="nav-wrapper container">
+          <a id="logo-container" href="index.html" class="brand-logo white-text">
+            <img src="img/logo.png" alt="logo" style="position: inherit;height:65px;width:65px;">
+          </a>
+          <span class="judul">Eteater</span>
+
+          <ul class="right hide-on-med-and-down">
+            <li><a href="index.html" class="white-text">Beranda</a></li>
+            <li><a href="teater.html" class="white-text">Teater</a></li>
+            <li><a href="about.html" class="white-text">About Website</a></li>
+          </ul>
+
+          <ul id="nav-mobile" class="sidenav">
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="teater.html">Teater</a></li>
+            <li><a href="about.html">About Website</a></li>
+          </ul>
+          <a href="#" data-target="nav-mobile" class="sidenav-trigger white-text"><i class="material-icons">menu</i></a>
+        </div>
+     </nav>
+
+    <div id="index-banner" class="parallax-container">
+        <div class="section no-pad-bot">
+          <div class="container">
+            <h1 class="header center white-text">Watch The Teater</h1>
+          </div>
+        </div>
+
+        <div class="parallax">
+          <img src="img/teater_1080.png"
+               srcset="img/teater_480.png 480w,
+                       img/teater_720.png 720w,
+                       img/teater_1080.png 1080w"
+               size="100vw"
+               alt="teater"
+               style="transform: translate3d(-50%, 0px, 0px);opacity: 1;width: 100%;height:100%;object-position: up;
+                      display: block;object-fit:cover;"
+          >
+        </div>
+      </div>
+
+    <div class="container">
+      <h4 class="center-align" style="margin-top:50px;margin-bottom:50px;color:purple;">Teater List</h4>
+      <div class="row">
+        <div id="daftar_teater">
+
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/init.js"></script>
+    <script type="text/javascript" src="js/api.js"></script>
+    <script type="text/javascript" src="js/teater.js"></script>
+    <script type="text/javascript">
+      document.addEventListener("DOMContentLoaded", function() {
+      getTeaterList();
+    });
+  </script>
+  </body>
+</html>
